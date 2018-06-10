@@ -30,9 +30,8 @@ $('.navbar-lower').affix({
 });
 </script>
 <style type="text/css">
-p.form-row > input.form-control:before {
-        display:inline-block; 
-       margin-right: 40px;
+p.form-row > input.form-control {
+        padding:10px;
     }
 
 </style>

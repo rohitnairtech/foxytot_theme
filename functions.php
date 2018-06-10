@@ -79,15 +79,21 @@ function custom_nav_menu_link_attributes($atts, $item, $args, $depth){
 }
 
 add_filter('woocommerce_checkout_fields', 'addBootstrapToCheckoutFields' );
+add_filter( 'woocommerce_billing_fields' , 'addBootstrapToCustomFields' );
+add_filter( 'woocommerce_shipping_fields' , 'addBootstrapToCustomFields' );
 function addBootstrapToCheckoutFields($fields) {
     foreach ($fields as &$fieldset) {
         foreach ($fieldset as &$field) {
-            // if you want to add the form-group class around the label and the input
             $field['class'][] = 'form-group';
-
-            // add form-control to the actual input
             $field['input_class'][] = 'form-control';
         }
+    }
+    return $fields;
+}
+function addBootstrapToCustomFields($fields) {
+    foreach ($fields as &$field) {
+    	$field['class'][] = 'form-group';
+    	$field['input_class'][] = 'form-control';
     }
     return $fields;
 }
