@@ -111,7 +111,13 @@
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/mbr-testimonials-slider.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/script_theme.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/script_gallery.js"></script>
-
+    <script>
+function removeFormClass() {
+    if($("div > p").hasClass('form-row')){
+        $("div > p").removeClass('form-row');
+    }
+}
+</script>
 
 </body>
 </html>

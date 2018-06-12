@@ -30,14 +30,11 @@ $('.navbar-lower').affix({
 });
 </script>
 <style type="text/css">
-p.form-row > input.form-control {
-        padding:10px;
-    }
 
 </style>
 </head>
 
-<body>
+<body onload="removeFormClass()">
 
 <section class="menu cid-qSG03FRd1P" once="menu" id="menu1-h">
 
