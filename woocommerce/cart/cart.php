@@ -21,7 +21,7 @@ wc_print_notices();
 
 do_action( 'woocommerce_before_cart' ); ?>
 <div class="row no-gutter">
-	<div class="col-md-6">
+	<div class="col-md-6" style="z-index:1;">
 <form class="woocommerce-cart-form" action="<?php echo esc_url( wc_get_cart_url() ); ?>" method="post">
 	<?php do_action( 'woocommerce_before_cart_table' ); ?>
 
