@@ -11,9 +11,9 @@
     <meta name="author" content="https://rohitnair.tech">
     <title><?php bloginfo( 'name' ); ?></title>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/custom/mobirise-icons/mobirise-icons.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/custom/style_dropdown.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/custom/style_theme.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/custom/style_gallery.css">
@@ -74,9 +74,17 @@ $('.navbar-lower').affix({
                       </div>
                     </form>
                        </li>
-
-                <li class="nav-item"><a href="http://localhost/foxytot/my-account/" class="iconLink"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon2.png" alt="My Account"></a></li>
-                <li class="nav-item"><a href="http://localhost/foxytot/cart/" class="iconLink"><span id="bag-total" style="font-size:18px;"><?php global $woocommerce; echo $woocommerce->cart->get_cart_contents_count(); ?></span><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon1.png" alt="My Cart"></a></li>
+<li class="nav-item">
+    <a href="http://localhost/foxytot/my-account/" class="iconLink">
+        <i class="fas fa-user fa-2x" style="color: #939393;"></i>
+     </a>
+ </li>
+<li class="nav-item"> 
+    <a href="http://localhost/foxytot/cart/" class="iconLink">
+        <span id="bag-total" style="font-size:18px;"><?php global $woocommerce; echo $woocommerce->cart->get_cart_contents_count(); ?></span>
+        <i class="fas fa-shopping-cart fa-2x" style="color: #939393;"></i>  
+    </a>
+</li>
 
             </ul>
 

@@ -3985,8 +3985,9 @@ body {
   }
   .cid-qSG03FRd1P .navbar-collapse.collapsing .navbar-nav,
   .cid-qSG03FRd1P .navbar-collapse.show .navbar-nav {
-    display: block;
+    display: flex;
     text-align: center;
+    justify-content: center;
   }
   .cid-qSG03FRd1P .navbar-collapse.collapsing .navbar-nav .nav-item,
   .cid-qSG03FRd1P .navbar-collapse.show .navbar-nav .nav-item {

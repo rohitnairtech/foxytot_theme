@@ -68,13 +68,13 @@
                     <br>
                     <br> 
                     <div class="row no-gutter">
-                    	<div class="col-sm-4">
+                    	<div class="col-xs-4">
                     		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/twitter.png" alt="tweet" >
                     	</div>
-                    	<div class="col-sm-4">
+                    	<div class="col-xs-4">
 	                    	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/facebook.png" alt="facebook">
 	                	</div>
-	                    <div class="col-sm-4">
+	                    <div class="col-xs-4">
 	                    	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/insta.png" alt="insta">
                     	</div>
                     </div>

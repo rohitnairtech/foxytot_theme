@@ -24,6 +24,28 @@
 
 }
 
+.icon-grey {color: grey}
+i {   
+    width:100px;
+    text-align:center;
+    vertical-align:middle;
+    position: relative;
+}
+.badge:after{
+    content:"100";
+    position: absolute;
+    background: rgba(0,0,255,1);
+    height:2rem;
+    top:1rem;
+    right:1.5rem;
+    width:2rem;
+    text-align: center;
+    line-height: 2rem;;
+    font-size: 1rem;
+    border-radius: 50%;
+    color:white;
+    border:1px solid blue;
+}
 
 .navbar-lower{
     background-color: #ff6600;
@@ -87,21 +109,42 @@ nav.select {
     padding-left: 20px;
 }
 
-@media (max-width: 576px) {
-    nav ul li{
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {   
+    snav ul li{
         margin: 10px;
         align-items: center;
     }
+
+    #abt-us{
+        border: none;
+    }
+
 }
 @media (max-width: 960px) {
-  nav ul.navbar-nav    { display: none; }
-  nav select { display: inline-block; align-content: flex-end;}
+  
 }
 
-@media only screen and (min-width: 768px) {
-  select {
+@media only screen and (max-width : 520px) {
+    #find{
+        margin-left: 30px;
+    }
+
+  
+}
+
+@media only screen  and (min-width : 1224px) {
+
+    select {
     display: none;
   }
+
+    #abt-us{
+        border-right: 1px solid #BDBDBD;
+    }
+
+    #help{
+        border-left: 1px soid #BDBDBD;
+    }
 }
 
 /* Footer Styling begins */
@@ -113,8 +156,10 @@ nav.select {
 }
 
     .row.no-gutter {
-  margin-left: 0;
-  margin-right: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .row.no-gutter [class*='col-']:not(:first-child),
@@ -133,6 +178,9 @@ nav.select {
     #join{
         background-color: #ff6600;
         color: #ffffff;
+        height: 58px;
+        margin: 0px 0px 22px auto;
+
     }
 
     #ftitle{
@@ -142,7 +190,7 @@ nav.select {
     #abt-us{
                 
         text-align: center;
-        border-right: 1px solid #BDBDBD;
+        
     }
 
     #txt2{
@@ -153,7 +201,7 @@ nav.select {
     #help{
 
         text-align: center;
-        border-left: 1px solid #BDBDBD;
+        
     }
 
     #con{
@@ -165,12 +213,17 @@ nav.select {
     
     
     #find{
-        margin-top: 15px; 
+        margin-top: 0px; 
         margin-right: 30px;
         width: 250px;
     }
     
+    .fa, .fas {
 
+    font-weight: 900;
+    padding-right: 20px;
+
+}
 
  body{
   margin-top: 100px;
