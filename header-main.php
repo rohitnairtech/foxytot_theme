@@ -11,6 +11,7 @@
     <meta name="author" content="https://rohitnair.tech">
     <title><?php bloginfo( 'name' ); ?></title>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/custom/mobirise-icons/mobirise-icons.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     
@@ -75,8 +76,20 @@ $('.navbar-lower').affix({
                     </form>
                        </li>
 
-                <li class="nav-item"><a href="http://localhost/foxytot/my-account/" class="iconLink"> <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon2.png" alt="My Account"></a></li>
-                <li class="nav-item"><a href="http://localhost/foxytot/cart/" class="iconLink"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon1.png" alt="My Cart"></a></li>
+                <li class="nav-item"><a href="http://localhost/foxytot/my-account/" class="iconLink">
+                 <i class="fas fa-user fa-2x" style="color: #939393;"></i>
+             </a>
+         </li>
+                <li class="nav-item">
+                    
+                        
+                        <a href="http://localhost/foxytot/cart/" class="iconLink">
+                        <i class="fas fa-shopping-cart fa-2x" style="color: #939393;"></i>  
+                        </a>
+                        
+
+                    
+                </li>
 
             </ul>
 
