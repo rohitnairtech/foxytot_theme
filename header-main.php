@@ -87,7 +87,7 @@ $('.navbar-lower').affix({
         
         <i class="fas fa-shopping-cart fa-2x" style="color: #939393;"></i>
         <span class="dot">
-        	<span class="fa-layers-counter" style="">1</span>
+        	<span class="fa-layers-counter" style="">5</span>
 		</span>    	
         
     </a>
