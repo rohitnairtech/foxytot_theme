@@ -117,8 +117,6 @@ $(document).ready(function(){
         $("div > p").removeClass('form-row');
     }
 
-    $('[data-toggle="popover"]').popover();
-
     $(".ajax_add_to_cart").click(function () {
         $("#bag-total").html(function () {
             var bagTotal = parseInt($(this).html());

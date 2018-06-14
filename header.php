@@ -91,8 +91,12 @@ $('.navbar-lower').affix({
  </li>
 <li class="nav-item"> 
     <a href="http://localhost/foxytot/cart/" class="iconLink">
-        <span id="bag-total" style="font-size:18px;"><?php global $woocommerce; echo $woocommerce->cart->get_cart_contents_count(); ?></span>
-        <i class="fas fa-shopping-cart fa-2x" style="color: #939393;"></i>  
+        
+        <i class="fas fa-shopping-cart fa-2x" style="color: #939393;"></i>
+        <span class="dot">
+            <span class="fa-layers-counter" id="bag-total"><?php global $woocommerce; echo $woocommerce->cart->get_cart_contents_count(); ?></span>
+        </span>     
+        
     </a>
 </li>
 

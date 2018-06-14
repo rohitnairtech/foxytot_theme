@@ -101,11 +101,5 @@
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/mbr-testimonials-slider.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/script_theme.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/script_gallery.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){
-    $('[data-toggle="popover"]').popover();   
-});
-</script>
-
 </body>
 </html>
