@@ -45,6 +45,9 @@
 
 }
 
+form{
+    margin-bottom: 0px;
+}
 
 .fa-layers-counter{
     position: absolute;
