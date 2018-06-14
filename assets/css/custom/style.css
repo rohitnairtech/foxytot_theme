@@ -20,31 +20,38 @@
     color: #ffffff;
     margin: auto;
     padding: auto;
-
-
 }
 
-.icon-grey {color: grey}
-i {   
-    width:100px;
-    text-align:center;
-    vertical-align:middle;
-    position: relative;
-}
-.badge:after{
-    content:"100";
+.search-icon{
     position: absolute;
-    background: rgba(0,0,255,1);
-    height:2rem;
-    top:1rem;
-    right:1.5rem;
-    width:2rem;
-    text-align: center;
-    line-height: 2rem;;
-    font-size: 1rem;
-    border-radius: 50%;
-    color:white;
-    border:1px solid blue;
+    right: 18px;
+    top: 13px;
+    color: #939393;
+}
+
+.fa-layers {
+  vertical-align: -.125em;
+}
+
+.dot {
+  height: 18px;
+  width: 18px;
+  background-color: #ff6600;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  top: -8px;
+  right: 25px;
+
+}
+
+
+.fa-layers-counter{
+    position: absolute;
+    color: #ffffff;
+    left: 6px;
+    top: 0px;
+    
 }
 
 .navbar-lower{

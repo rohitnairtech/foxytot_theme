@@ -1697,10 +1697,7 @@ body {
   .cid-qSG03FRd1P .navbar-collapse.show .navbar-nav .nav-item {
     clear: both;
   }
-  .cid-qSG03FRd1P .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
-  .cid-qSG03FRd1P .navbar-collapse.show .navbar-nav .nav-item:last-child {
-    margin-bottom: 1rem;
-  }
+ 
   .cid-qSG03FRd1P .navbar-collapse.collapsing .navbar-buttons,
   .cid-qSG03FRd1P .navbar-collapse.show .navbar-buttons {
     text-align: center;
@@ -2156,10 +2153,7 @@ body {
   .cid-qSG03FRd1P .navbar-collapse.show .navbar-nav .nav-item {
     clear: both;
   }
-  .cid-qSG03FRd1P .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
-  .cid-qSG03FRd1P .navbar-collapse.show .navbar-nav .nav-item:last-child {
-    margin-bottom: 1rem;
-  }
+  
   .cid-qSG03FRd1P .navbar-collapse.collapsing .navbar-buttons,
   .cid-qSG03FRd1P .navbar-collapse.show .navbar-buttons {
     text-align: center;
@@ -3116,10 +3110,7 @@ body {
   .cid-qSG03FRd1P .navbar-collapse.show .navbar-nav .nav-item {
     clear: both;
   }
-  .cid-qSG03FRd1P .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
-  .cid-qSG03FRd1P .navbar-collapse.show .navbar-nav .nav-item:last-child {
-    margin-bottom: 1rem;
-  }
+
   .cid-qSG03FRd1P .navbar-collapse.collapsing .navbar-buttons,
   .cid-qSG03FRd1P .navbar-collapse.show .navbar-buttons {
     text-align: center;
@@ -3595,10 +3586,7 @@ body {
   .cid-qSG03FRd1P .navbar-collapse.show .navbar-nav .nav-item {
     clear: both;
   }
-  .cid-qSG03FRd1P .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
-  .cid-qSG03FRd1P .navbar-collapse.show .navbar-nav .nav-item:last-child {
-    margin-bottom: 1rem;
-  }
+
   .cid-qSG03FRd1P .navbar-collapse.collapsing .navbar-buttons,
   .cid-qSG03FRd1P .navbar-collapse.show .navbar-buttons {
     text-align: center;
@@ -3995,7 +3983,7 @@ body {
   }
   .cid-qSG03FRd1P .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
   .cid-qSG03FRd1P .navbar-collapse.show .navbar-nav .nav-item:last-child {
-    margin-bottom: 1rem;
+    
   }
   .cid-qSG03FRd1P .navbar-collapse.collapsing .navbar-buttons,
   .cid-qSG03FRd1P .navbar-collapse.show .navbar-buttons {

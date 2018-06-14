@@ -23,6 +23,8 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/custom/style.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Roboto+Condensed" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+                        
 
 <script>
 $('.navbar-lower').affix({
@@ -74,6 +76,9 @@ $('.navbar-lower').affix({
                     <form role="search" method="get" action="http://localhost/foxytot/">
                       <div class="input-group input-group-sm">
                         <input class="form-control input-sm" placeholder="Search" id="find" name="s" type="search">
+                        <div class="search-icon"><span>
+                            <i class="fas fa-search fa-2x"></i>
+                        </span></div>
                         <input name="post_type" value="product" type="hidden">
                       </div>
                     </form>
