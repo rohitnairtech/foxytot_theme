@@ -123,8 +123,10 @@ $(document).ready(function(){
             return ++bagTotal;
         });
     });
-});
+    
+    $(".woocommerce-product-gallery__wrapper > div > a").addClass('woocommerce-product-gallery__trigger');
 
+});
 </script>
 
 </body>

@@ -32,7 +32,30 @@ $('.navbar-lower').affix({
 });
 </script>
 <style type="text/css">
-
+/*NOTE SIDD: this CSS has been temporarily added to the header file and will be moved to custom/style.css post-staging*/
+.flex-control-nav li {
+  display: block;
+  float: left;
+  text-align: center;
+  padding: 8px; 
+  border:0.5px solid black;
+}
+.flex-control-nav li img { 
+    vertical-align: middle; 
+    cursor: pointer; 
+}
+.woocommerce-product-gallery > .woocommerce-product-gallery__trigger {
+    display: none;
+}
+.woocommerce-product-gallery__wrapper > div {
+     height: 380px !important;
+}
+.woocommerce-product-gallery__wrapper > div > a{
+    cursor: default;
+}
+.woocommerce-product-gallery__wrapper > div > a > img{
+    cursor: url(<?php echo get_template_directory_uri(); ?>/assets/images/zoom-in.png), auto;
+}
 </style>
 </head>
 
