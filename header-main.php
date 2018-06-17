@@ -107,7 +107,7 @@ $('.navbar-lower').affix({
 
     </section>
 
-<nav class="navbar nav-responsive navbar-collapse-lg">
+<nav class="d-sm-none navbar nav-responsive navbar-collapse-lg">
   <div class="navbar-title" href="#">Menu
   <button class="navbar-toggler secondary" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span><i class="fas fa-sort-down fa-1x"></i></span>

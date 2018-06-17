@@ -75,13 +75,14 @@ button:focus{
 }
 
 .nav-responsive{
-    z-index: 1000;
+z-index: 1000;
 margin: auto;
 display: flex;
-
+position: absolute;
 align-content: center;
 justify-content: center;
 background: #ff6600;
+width: 100%;
 
 }
 
@@ -154,7 +155,7 @@ nav.select {
 }
 
 @media only screen and (max-width: 600px) {   
-    snav ul li{
+    nav ul li{
         margin: 10px;
         align-items: center;
     }
@@ -176,14 +177,6 @@ nav.select {
 
 
 @media only screen and (min-width: 600px) {
-
-    .nav-responsive{
-        display: none;
-    }
-
-    select {
-    display: none;
-  }
 
     #abt-us{
         border-right: 1px solid #BDBDBD;
