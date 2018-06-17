@@ -57,11 +57,11 @@ $('.navbar-lower').affix({
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
 
-                <li class="nav-item" style="font-family: 'Oswald', sans-serif; font-size: 16px;, sans-serif; color: #ff6600; margin-left:30px; margin-right: 20px;">
+                <li class="nav-item" style="font-family: 'Oswald', sans-serif; font-size: 16px; color: #ff6600; margin-left:30px; margin-right: 20px;">
                     <a href="#">SALE</a>
                 </li>
 
-                <li class="nav-item" style="font-family: 'Oswald', sans-serif; font-size: 16px;, sans-serif; color: #ff6600; margin-left:30px; margin-right: 20px;">
+                <li class="nav-item" style="font-family: 'Oswald', sans-serif; font-size: 16px; color: #ff6600; margin-left:30px; margin-right: 20px;">
                     <a href="#">FEATURED</a>
                 </li>
 
@@ -86,7 +86,7 @@ $('.navbar-lower').affix({
         
         <i class="fas fa-shopping-cart fa-2x" style="color: #939393;"></i>
         <span class="dot">
-        	<span class="fa-layers-counter" style="">5</span>
+        	<span class="fa-layers-counter" id="bag-total"><?php global $woocommerce; echo $woocommerce->cart->get_cart_contents_count(); ?></span>
 		</span>    	
         
     </a>
@@ -109,29 +109,18 @@ $('.navbar-lower').affix({
 <nav class="navbar nav-responsive navbar-collapse-lg">
   <div class="navbar-title" href="#">Menu
   <button class="navbar-toggler secondary" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span><i class="fas fa-sort-down fa-1x"></i></span>
+    <span><i class="fas fa-sort-down fa-1x" id="upDown"></i></span>
   </button>
   </div>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent2">
-    <ul class="navbar-nav mr-auto" style="display:flex; flex-direction: column; padding-top:10px;">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Disabled</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-
-    </ul>
+    <?php
+    wp_nav_menu(array(
+        'theme_location' => 'primary',
+        'container' => 'none',
+        'menu_class' => 'navbar-nav mr-auto'
+    ));
+    ?>
   </div>
 </nav>
 

@@ -284,3 +284,6 @@ a:active, a:focus {
 .nav-link {
     padding: 12px;
 }
+ #navbarSupportedContent2 > .navbar-nav{
+    display:flex; flex-direction: column; padding-top:10px;
+ }
