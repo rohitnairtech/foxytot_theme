@@ -69,13 +69,13 @@
                     <br> 
                     <div class="row no-gutter">
                     	<div class="col-xs-4">
-                    		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/twitter.png" alt="tweet" >
+                    		<i class="fab fa-twitter-square"></i>
                     	</div>
                     	<div class="col-xs-4">
-	                    	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/facebook.png" alt="facebook">
+	                    	<i class="fab fa-facebook"></i>
 	                	</div>
 	                    <div class="col-xs-4">
-	                    	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/insta.png" alt="insta">
+	                    	<i class="fab fa-instagram"></i>
                     	</div>
                     </div>
                 </div>

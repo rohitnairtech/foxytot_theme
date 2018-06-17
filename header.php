@@ -10,7 +10,6 @@
     <meta name="description" content="Kiddos fashion haven">
     <meta name="author" content="https://rohitnair.tech">
     <title><?php bloginfo( 'name' ); ?></title>
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/custom/mobirise-icons/mobirise-icons.css">
    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     
@@ -21,9 +20,9 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/custom/style_gallery.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/custom/mbr-additional.css" type="text/css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/custom/style.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Roboto+Condensed" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
                         
 
 <script>
