@@ -3805,9 +3805,11 @@ body {
   height: 18px;
   cursor: pointer;
   transition: all .2s;
-  top: 1.5rem;
-  right: 1rem;
+  top: 32px;
+  right: 30px;
 }
+
+
 .cid-qSG03FRd1P button.navbar-toggler:focus {
   outline: none;
 }

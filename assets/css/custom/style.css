@@ -15,6 +15,8 @@
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
+
+
 .navbar-nav .nav-item{
     box-sizing: border-box;
     color: #ffffff;
@@ -68,6 +70,38 @@ form{
     padding: 0px;
 }
 
+button:focus{
+    outline: none !important;
+}
+
+.nav-responsive{
+    z-index: 1000;
+margin: auto;
+display: flex;
+
+align-content: center;
+justify-content: center;
+background: #ff6600;
+
+}
+
+.secondary{
+    color: #ffffff;
+    position: relative;
+    bottom: 4px;
+    left: 70px;
+}
+
+.navbar-title{
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    position: relative;
+    left: 35px;
+}
+
+
+
 #sale{
         
         color: #ff6600;
@@ -119,7 +153,7 @@ nav.select {
     padding-left: 20px;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {   
+@media only screen and (max-width: 600px) {   
     snav ul li{
         margin: 10px;
         align-items: center;
@@ -129,20 +163,23 @@ nav.select {
         border: none;
     }
 
-}
-@media (max-width: 960px) {
-  
-}
+    .navbar-lower{
+        display: none;
+    }
 
-@media only screen and (max-width : 520px) {
     #find{
         margin-left: 30px;
     }
 
-  
 }
 
-@media only screen  and (min-width : 1224px) {
+
+
+@media only screen and (min-width: 600px) {
+
+    .nav-responsive{
+        display: none;
+    }
 
     select {
     display: none;

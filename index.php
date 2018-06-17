@@ -196,7 +196,7 @@
                                     <div href="#lb-gallery1-z" data-slide-to="6" data-toggle="modal"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallery06.jpg" alt="" title=""><span class="icon-focus"></span><span class="mbr-gallery-title mbr-fonts-style display-7">Tiaras</span></div>
                                 </div>
                                 <div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false" data-tags="Animated">
-                                    <div href="#lb-gallery1-z" data-slide-to="7" data-toggle="modal"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallery07.jpg" alt="" title=""><span class="icon-focus"></span><span class="mbr-gallery-title mbr-fonts-style display-7">Hsir elastics</span></div>
+                                    <div href="#lb-gallery1-z" data-slide-to="7" data-toggle="modal"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallery07.jpg" alt="" title=""><span class="icon-focus"></span><span class="mbr-gallery-title mbr-fonts-style display-7">Hair elastics</span></div>
                                 </div>
                             </div>
                         </div>
