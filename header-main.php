@@ -87,7 +87,7 @@ $('.navbar-lower').affix({
         
         <i class="fas fa-shopping-cart fa-2x" style="color: #939393;"></i>
         <span class="dot">
-        	<span class="fa-layers-counter" id="bag-total"><?php global $woocommerce; echo $woocommerce->cart->get_cart_contents_count(); ?></span>
+        	<span class="fa-layers-counter" style="">5</span>
 		</span>    	
         
     </a>
@@ -106,6 +106,37 @@ $('.navbar-lower').affix({
 
 
     </section>
+
+<nav class="navbar nav-responsive navbar-collapse-lg">
+  <div class="navbar-title" href="#">Menu
+  <button class="navbar-toggler secondary" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-sort-down fa-1x"></i></span>
+  </button>
+  </div>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent2">
+    <ul class="navbar-nav mr-auto" style="display:flex; flex-direction: column; padding-top:10px;">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Disabled</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+
+
 <nav class="navbar navbar-lower navbar-light" role="navigation">
 	<?php
 	wp_nav_menu(array(
