@@ -6,8 +6,8 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
-    <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/assets/images/head.png" type="image/x-icon">
-    <meta name="description" content="Kiddos fashion haven">
+    <link rel="shortcut icon" href="<?php echo get_site_icon_url(); ?>" type="image/x-icon">
+    <meta name="description" content="<?php bloginfo('description'); ?>">
     <meta name="author" content="https://rohitnair.tech">
     <title><?php bloginfo( 'name' ); ?></title>
    
@@ -47,8 +47,12 @@ $('.navbar-lower').affix({
         <div class="menu-logo">
             <div class="navbar-brand">
                 <span class="navbar-logo">
-                    <a href="#">
-                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/head-image.png" alt="TheFoxyTot" title="" style="height: 5rem;">
+                    <a href="<?php bloginfo( 'url' ); ?>">
+                      <?php 
+                        $custom_logo_id = get_theme_mod( 'custom_logo' );
+                        $logo = wp_get_attachment_image_src( $custom_logo_id , 'full' );
+                        ?>
+                         <img src="<?php echo (has_custom_logo()) ? esc_url( $logo[0] ) : get_template_directory_uri().'/assets/images/head-image.png' ?>" alt="<?php echo esc_attr( get_bloginfo('name', 'display') ); ?>" title="<?php echo esc_attr( get_bloginfo('name') ); ?>" style="height: 5rem;">
                     </a>
                 </span>
 
@@ -106,7 +110,7 @@ $('.navbar-lower').affix({
 
     </section>
 
-<nav class="d-sm-none navbar nav-responsive navbar-collapse-lg">
+<nav class="d-block d-sm-none navbar nav-responsive navbar-collapse-lg" id="navResponsive">
   <div class="navbar-title" href="#">Menu
   <button class="navbar-toggler secondary" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span><i class="fas fa-sort-down fa-1x" id="upDown"></i></span>
@@ -125,7 +129,7 @@ $('.navbar-lower').affix({
 </nav>
 
 
-<nav class="navbar navbar-lower navbar-light" role="navigation">
+<nav class="d-none d-sm-block navbar navbar-lower navbar-light" role="navigation">
 	<?php
 	wp_nav_menu(array(
 		'theme_location' => 'primary',
