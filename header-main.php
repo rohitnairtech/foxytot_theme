@@ -61,7 +61,7 @@ $('.navbar-lower').affix({
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
 
-                <li class="nav-item" style="font-family: 'Oswald', sans-serif; font-size: 16px; color: #ff6600; margin-left:30px; margin-right: 20px;">
+                <li class="nav-item" style="font-family: 'Oswald', sans-serif; font-size: 16px; color: #ff6600; margin-left:05px; margin-right: 20px;">
                     <a href="#">SALE</a>
                 </li>
 
