@@ -72,15 +72,15 @@
                     <br>
                     <br> 
                     <div class="row no-gutter">
-                    	<div class="col-xs-4">
-                    		<i class="fab fa-twitter-square"></i>
-                    	</div>
-                    	<div class="col-xs-4">
-	                    	<i class="fab fa-facebook"></i>
-	                	</div>
-	                    <div class="col-xs-4">
-	                    	<i class="fab fa-instagram"></i>
-                    	</div>
+                        <div class="col-xs-4">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/twitter.png" alt="tweet" >
+                        </div>
+                        <div class="col-xs-4">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/facebook.png" alt="facebook">
+                        </div>
+                        <div class="col-xs-4">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/insta.png" alt="insta">
+                        </div>
                     </div>
                 </div>
 
@@ -129,6 +129,14 @@ $(document).ready(function(){
     });
     
     $(".woocommerce-product-gallery__wrapper > div > a").addClass('woocommerce-product-gallery__trigger');
+
+    $('#navbarSupportedContent2').on('shown.bs.collapse', function () {
+        $("#upDown").removeClass('fa-sort-down').addClass('fa-sort-up');
+    });
+
+    $('#navbarSupportedContent2').on('hidden.bs.collapse', function () {
+        $("#upDown").removeClass('fa-sort-up').addClass('fa-sort-down');
+    });
 
 });
 </script>

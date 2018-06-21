@@ -107,9 +107,12 @@
     <script src="<?php echo get_template_directory_uri(); ?>/assets/js/script_gallery.js"></script>
     <script type="text/javascript">
 $(document).ready(function(){
-    $("#navResponsive").on("show.bs.dropdown", function(){
-        var x = '1';
-        alert("You clicked on: " + x);
+    $('#navbarSupportedContent2').on('shown.bs.collapse', function () {
+        $("#upDown").removeClass('fa-sort-down').addClass('fa-sort-up');
+    });
+
+    $('#navbarSupportedContent2').on('hidden.bs.collapse', function () {
+        $("#upDown").removeClass('fa-sort-up').addClass('fa-sort-down');
     });
 });
     </script>

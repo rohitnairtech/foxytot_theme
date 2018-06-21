@@ -110,7 +110,7 @@ $('.navbar-lower').affix({
 
     </section>
 
-<nav class="d-sm-none navbar nav-responsive navbar-collapse-lg" id="navResponsive">
+<nav class="d-block d-sm-none navbar nav-responsive navbar-collapse-lg" id="navResponsive">
   <div class="navbar-title" href="#">Menu
   <button class="navbar-toggler secondary" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span><i class="fas fa-sort-down fa-1x" id="upDown"></i></span>
@@ -128,13 +128,12 @@ $('.navbar-lower').affix({
   </div>
 </nav>
 
-
 <nav class="d-none d-sm-block navbar navbar-lower navbar-light" role="navigation">
-	<?php
-	wp_nav_menu(array(
-		'theme_location' => 'primary',
-		'container' => 'none',
-		'menu_class' => 'navbar-nav headerDownMenu'
-	));
-	?>
+    <?php
+    wp_nav_menu(array(
+        'theme_location' => 'primary',
+        'container' => 'none',
+        'menu_class' => 'navbar-nav headerDownMenu'
+    ));
+    ?>
 </nav>
