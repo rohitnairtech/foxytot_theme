@@ -6,10 +6,10 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
+    <title><?php bloginfo( 'name' ); ?></title>
     <link rel="shortcut icon" href="<?php echo get_site_icon_url(); ?>" type="image/x-icon">
     <meta name="description" content="<?php bloginfo('description'); ?>">
     <meta name="author" content="https://rohitnair.tech">
-    <title><?php bloginfo( 'name' ); ?></title>
    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/custom/style_dropdown.css">
@@ -110,7 +110,7 @@ $('.navbar-lower').affix({
 
     </section>
 
-<nav class="d-block d-sm-none navbar nav-responsive navbar-collapse-lg" id="navResponsive">
+<nav class="d-sm-none navbar nav-responsive navbar-collapse-lg" id="navResponsive">
   <div class="navbar-title" href="#">Menu
   <button class="navbar-toggler secondary" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span><i class="fas fa-sort-down fa-1x" id="upDown"></i></span>
