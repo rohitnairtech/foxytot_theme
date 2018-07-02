@@ -224,72 +224,30 @@
             </div>
         </div>
 
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="..." alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="..." alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="..." alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
     </section>
 
-    <section class="carousel slide testimonials-slider cid-qSWrDcoUz1" id="testimonials-slider1-10">
-
-
-
-
-
-        <div class="container text-center">
-            <h2 class="pb-5 mbr-fonts-style display-2">
-                WHAT OUR BELOVED USERS SAY
-            </h2>
-
-            <div class="carousel slide" data-ride="carousel" role="listbox">
-                <div class="carousel-inner">
-
-
-                    <div class="carousel-item">
-                        <div class="user col-md-8">
-                            <div class="user_image">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/face3.jpg">
-                            </div>
-                            <div class="user_text pb-3">
-                                <p class="mbr-fonts-style display-7">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae nostrum, quos voluptas fugiat blanditiis, temporibus expedita cumque doloribus ea, officiis consequuntur repellat minus ad veritatis? Facere similique accusamus, accusantium sunt!
-                                </p>
-                            </div>
-                            <div class="user_name mbr-bold pb-2 mbr-fonts-style display-7">
-                                Helen
-                            </div>
-                            <div class="user_desk mbr-light mbr-fonts-style display-7">
-                                DESIGNER
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="user col-md-8">
-                            <div class="user_image">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/face1.jpg">
-                            </div>
-                            <div class="user_text pb-3">
-                                <p class="mbr-fonts-style display-7">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae nostrum, quos voluptas fugiat blanditiis, temporibus expedita cumque doloribus ea, officiis consequuntur repellat minus ad veritatis? Facere similique accusamus, accusantium sunt!
-                                </p>
-                            </div>
-                            <div class="user_name mbr-bold pb-2 mbr-fonts-style display-7">Dr. Linda
-                            </div>
-                            <div class="user_desk mbr-light mbr-fonts-style display-7">Phd. Hair Bands</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-controls">
-                    <a class="carousel-control-prev" role="button" data-slide="prev">
-                  <span aria-hidden="true" class="mbri-arrow-prev mbr-iconfont"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-
-                    <a class="carousel-control-next" role="button" data-slide="next">
-                  <span aria-hidden="true" class="mbri-arrow-next mbr-iconfont"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-                </div>
-            </div>
-        </div>
-    </section>
 
 
 

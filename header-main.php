@@ -61,11 +61,11 @@ $('.navbar-lower').affix({
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
 
-                <li class="nav-item" style="font-family: 'Oswald', sans-serif; font-size: 16px; color: #ff6600; margin-left:05px; margin-right: 20px;">
+                <li class="nav-item" style="font-family: 'Oswald', sans-serif; font-size: 16px; color: #ff6600; margin-left:05px; margin-right: 10px;">
                     <a href="#">SALE</a>
                 </li>
 
-                <li class="nav-item" style="font-family: 'Oswald', sans-serif; font-size: 16px; color: #ff6600; margin-left:30px; margin-right: 20px;">
+                <li class="nav-item" style="font-family: 'Oswald', sans-serif; font-size: 16px; color: #ff6600; margin-left:10px; margin-right: 20px;">
                     <a href="#">FEATURED</a>
                 </li>
 
@@ -82,13 +82,13 @@ $('.navbar-lower').affix({
                        </li>
 <li class="nav-item">
     <a href="http://localhost/foxytot/my-account/" class="iconLink">
-        <i class="fas fa-user fa-2x" style="color: #939393;"></i>
+        <i class="fas fa-user fa-2x" style="color: #939393; padding-left: 25px;"></i>
      </a>
  </li>
 <li class="nav-item"> 
     <a href="http://localhost/foxytot/cart/" class="iconLink">
         
-        <i class="fas fa-shopping-cart fa-2x" style="color: #939393;"></i>
+        <i class="fas fa-shopping-cart fa-2x" style="color: #939393; padding-left: 0px;"></i>
         <span class="dot">
         	<span class="fa-layers-counter" id="bag-total"><?php echo WC()->cart->get_cart_contents_count(); ?></span>
 		</span>    	
