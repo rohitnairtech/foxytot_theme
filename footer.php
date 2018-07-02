@@ -106,7 +106,7 @@
 
 
 <?php wp_footer(); ?>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
@@ -119,15 +119,7 @@
 $(document).ready(function(){
     if($("div > p").hasClass('form-row')){
         $("div > p").removeClass('form-row');
-    }
-
-    $(".ajax_add_to_cart").click(function () {
-        $("#bag-total").html(function () {
-            var bagTotal = parseInt($(this).html());
-            return ++bagTotal;
-        });
-    });
-    
+    }    
     $(".woocommerce-product-gallery__wrapper > div > a").addClass('woocommerce-product-gallery__trigger');
 
     $('#navbarSupportedContent2').on('shown.bs.collapse', function () {

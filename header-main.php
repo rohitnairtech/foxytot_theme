@@ -90,7 +90,7 @@ $('.navbar-lower').affix({
         
         <i class="fas fa-shopping-cart fa-2x" style="color: #939393;"></i>
         <span class="dot">
-        	<span class="fa-layers-counter" id="bag-total"><?php global $woocommerce; echo $woocommerce->cart->get_cart_contents_count(); ?></span>
+        	<span class="fa-layers-counter" id="bag-total"><?php echo WC()->cart->get_cart_contents_count(); ?></span>
 		</span>    	
         
     </a>

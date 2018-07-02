@@ -97,3 +97,14 @@ function addBootstrapToCustomFields($fields) {
     }
     return $fields;
 }
+
+add_filter( 'woocommerce_add_to_cart_fragments', 'wc_refresh_mini_cart_count');
+
+function wc_refresh_mini_cart_count($fragments){
+    ob_start();
+    ?>
+    <span class="fa-layers-counter" id="bag-total"><?php echo WC()->cart->get_cart_contents_count(); ?></span>
+    <?php
+        $fragments['span#bag-total'] = ob_get_clean();
+    return $fragments;
+}

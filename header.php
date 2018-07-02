@@ -31,19 +31,24 @@ $('.navbar-lower').affix({
 </script>
 <style type="text/css">
 /*NOTE SIDD: this CSS has been temporarily added to the header file and will be moved to custom/style.css post-staging*/
-.flex-control-nav li {
-  display: block;
+.woocommerce-product-gallery__trigger {
+  position: relative !important;
   float: left;
-  text-align: center;
+}
+.flex-control-nav {
+  position: relative !important;
+  float: right;
+}
+.flex-control-nav > li {
   padding: 8px; 
-  border:0.5px solid black;
+  border:0.5px dashed black;
 }
 .flex-control-nav li img { 
     vertical-align: middle; 
     cursor: pointer; 
 }
 .woocommerce-product-gallery > .woocommerce-product-gallery__trigger {
-    display: none;
+    display: none !important;
 }
 .woocommerce-product-gallery__wrapper > div {
      height: 380px !important;
@@ -115,10 +120,10 @@ $('.navbar-lower').affix({
      </a>
  </li>
 <li class="nav-item"> 
-    <a href="http://localhost/foxytot/cart/" class="iconLink">
+    <a href="<?php echo WC()->cart->get_cart_url(); ?>" class="iconLink">
         <i class="fas fa-shopping-cart fa-2x" style="color: #939393;"></i>
         <span class="dot">
-        	<span class="fa-layers-counter" id="bag-total"><?php global $woocommerce; echo $woocommerce->cart->get_cart_contents_count(); ?></span>
+        	<span class="fa-layers-counter" id="bag-total"><?php echo WC()->cart->get_cart_contents_count(); ?></span>
 		</span>
     </a>
 </li>
