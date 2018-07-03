@@ -145,6 +145,12 @@ width: 100%;
 
 }
 
+.tiles{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 90px;
+}
+
 nav.select {
   display: none;
 }
