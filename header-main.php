@@ -111,10 +111,11 @@ $('.navbar-lower').affix({
     </section>
 
 <nav class="d-block d-sm-none navbar nav-responsive navbar-collapse-lg" id="navResponsive">
-  <div class="navbar-title" href="#">Menu
-  <button class="navbar-toggler secondary" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <div class="navbar-title" href="#"> 
+  <a class="navbar-toggler secondary" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  	Menu
     <span><i class="fas fa-sort-down fa-1x" id="upDown"></i></span>
-  </button>
+  </a>
   </div>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent2">

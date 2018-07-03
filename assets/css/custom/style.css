@@ -97,8 +97,10 @@ width: 100%;
     color: #ffffff;
     font-family: 'Oswald', sans-serif;
     font-size: 18px;
+    text-align: center;
     position: relative;
-    left: 130px;
+    right: 50px;
+    
 }
 
 
