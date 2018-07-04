@@ -7,7 +7,7 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: row;
-    padding-left: 15px;
+    
     margin-bottom: 0;
     list-style: none;
     text-decoration-color: #ffffff;
@@ -288,4 +288,5 @@ a:active, a:focus {
 }
  #navbarSupportedContent2 > .navbar-nav{
     display:flex; flex-direction: column; padding-top:10px;
+    margin: 0px;
  }
