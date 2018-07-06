@@ -39,6 +39,14 @@ $('.navbar-lower').affix({
   position: relative !important;
   float: right;
 }
+
+p{
+	font-family: 'IBM Plex Sans', sans-serif!important;
+}
+
+h2, h3{
+	font-family: 'Fjalla One', sans-serif!important; 
+}
 .flex-control-nav > li {
   padding: 8px; 
   border:0.5px dashed black;
