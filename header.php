@@ -40,6 +40,16 @@ $('.navbar-lower').affix({
   float: right;
 }
 
+.summary {
+	z-index: 1000;
+}
+
+
+.site-main{
+	position: relative;
+	top:50px;	
+}
+
 p{
 	font-family: 'IBM Plex Sans', sans-serif!important;
 }
@@ -66,6 +76,18 @@ h2, h3{
 }
 .woocommerce-product-gallery__wrapper > div > a > img{
     cursor: url(<?php echo get_template_directory_uri(); ?>/assets/images/zoom-in.png), auto;
+}
+
+#tab-description{
+	position: relative;
+
+}
+
+@media only screen and (max-width: 600px) { 
+	.site-main{
+	position: relative;
+	top:50px;	
+}
 }
 
 </style>
