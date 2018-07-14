@@ -40,9 +40,7 @@ $('.navbar-lower').affix({
   float: right;
 }
 
-.summary {
-	z-index: 1000;
-}
+
 
 
 .site-main{
@@ -88,6 +86,12 @@ h2, h3{
 	position: relative;
 	top:50px;	
 }
+
+s
+
+.flex-control-nav{
+        display: none;
+    }
 }
 
 </style>

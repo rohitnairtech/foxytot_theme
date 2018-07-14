@@ -86,6 +86,10 @@ width: 100%;
 
 }
 
+#coupon{
+    background: linear-gradient(45deg, #cb2d3e, #ef473a)
+}
+
 .flex-control-nav{
     bottom: 350px;
     
