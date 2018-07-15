@@ -86,6 +86,8 @@ width: 100%;
 
 }
 
+
+
 #coupon{
     background: linear-gradient(45deg, #cb2d3e, #ef473a)
 }
@@ -201,7 +203,11 @@ nav.select {
 
 @media only screen and (min-width: 600px) {
 
-
+    .summary, .woocommerce-tabs{
+        position: relative;
+        bottom: 270px;
+        
+    }
 
     #abt-us{
         border-right: 1px solid #BDBDBD;
