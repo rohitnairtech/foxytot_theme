@@ -31,6 +31,8 @@
     color: #939393;
 }
 
+
+
 .fa-layers {
   vertical-align: -.125em;
 }
@@ -45,6 +47,10 @@
   top: -8px;
   right: 25px;
 
+}
+
+h2{
+    padding-top: 20px;
 }
 
 form{
@@ -157,6 +163,11 @@ width: 100%;
     font-family: 'Oswald', sans-serif;
     font-size: 18px;
 
+}
+
+.quantity{
+    float: left;
+    margin-right: 25px;
 }
 
 .tiles{

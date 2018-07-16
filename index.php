@@ -184,28 +184,28 @@
                         <div>
                             <div class="tiles">
                                 <div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false" data-tags="Awesome">
-                                    <div href="#lb-gallery1-z" data-slide-to="0" data-toggle="modal"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallery00.jpg" alt="" title=""><span class="icon-focus"></span><span class="mbr-gallery-title mbr-fonts-style display-7">Featured</span></div>
+                                    <div href="#lb-gallery1-z" data-slide-to="0" data-toggle="modal"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallery00.jpg" alt="" title=""><span class="icon-focus "> <i class="fas fa-heart fa-xs"></i></span><span class="mbr-gallery-title mbr-fonts-style display-7">Featured</span></div>
                                 </div>
                                 <div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false" data-tags="Responsive">
-                                    <div href="#lb-gallery1-z" data-slide-to="1" data-toggle="modal"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallery01.jpg" alt="" title=""><span class="icon-focus"></span><span class="mbr-gallery-title mbr-fonts-style display-7">Hair bands</span></div>
+                                    <div href="#lb-gallery1-z" data-slide-to="1" data-toggle="modal"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallery01.jpg" alt="" title=""><span class="icon-focus"><i class="fas fa-heart fa-xs"></i></span><span class="mbr-gallery-title mbr-fonts-style display-7">Hair bands</span></div>
                                 </div>
                                 <div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false" data-tags="Creative">
-                                    <div href="#lb-gallery1-z" data-slide-to="2" data-toggle="modal"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallery02.jpg" alt="" title=""><span class="icon-focus"></span><span class="mbr-gallery-title mbr-fonts-style display-7">Banana Clips</span></div>
+                                    <div href="#lb-gallery1-z" data-slide-to="2" data-toggle="modal"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallery02.jpg" alt="" title=""><span class="icon-focus"><i class="fas fa-heart fa-xs"></i></span><span class="mbr-gallery-title mbr-fonts-style display-7">Banana Clips</span></div>
                                 </div>
                                 <div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false" data-tags="Animated">
-                                    <div href="#lb-gallery1-z" data-slide-to="3" data-toggle="modal"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallery03.jpg" alt="" title=""><span class="icon-focus"></span><span class="mbr-gallery-title mbr-fonts-style display-7">Bobby pins</span></div>
+                                    <div href="#lb-gallery1-z" data-slide-to="3" data-toggle="modal"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallery03.jpg" alt="" title=""><span class="icon-focus"><i class="fas fa-heart fa-xs"></i></span><span class="mbr-gallery-title mbr-fonts-style display-7">Bobby pins</span></div>
                                 </div>
                                 <div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false" data-tags="Awesome">
-                                    <div href="#lb-gallery1-z" data-slide-to="0" data-toggle="modal"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallery00.jpg" alt="" title=""><span class="icon-focus"></span><span class="mbr-gallery-title mbr-fonts-style display-7">Featured</span></div>
+                                    <div href="#lb-gallery1-z" data-slide-to="0" data-toggle="modal"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallery00.jpg" alt="" title=""><span class="icon-focus"><i class="fas fa-heart fa-xs"></i></span><span class="mbr-gallery-title mbr-fonts-style display-7">Featured</span></div>
                                 </div>
                                 <div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false" data-tags="Responsive">
-                                    <div href="#lb-gallery1-z" data-slide-to="1" data-toggle="modal"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallery01.jpg" alt="" title=""><span class="icon-focus"></span><span class="mbr-gallery-title mbr-fonts-style display-7">Hair bands</span></div>
+                                    <div href="#lb-gallery1-z" data-slide-to="1" data-toggle="modal"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallery01.jpg" alt="" title=""><span class="icon-focus"><i class="fas fa-heart fa-xs"></i></span><span class="mbr-gallery-title mbr-fonts-style display-7">Hair bands</span></div>
                                 </div>
                                 <div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false" data-tags="Creative">
-                                    <div href="#lb-gallery1-z" data-slide-to="2" data-toggle="modal"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallery02.jpg" alt="" title=""><span class="icon-focus"></span><span class="mbr-gallery-title mbr-fonts-style display-7">Banana Clips</span></div>
+                                    <div href="#lb-gallery1-z" data-slide-to="2" data-toggle="modal"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallery02.jpg" alt="" title=""><span class="icon-focus"><i class="fas fa-heart fa-xs"></i></span><span class="mbr-gallery-title mbr-fonts-style display-7">Banana Clips</span></div>
                                 </div>
                                 <div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false" data-tags="Animated">
-                                    <div href="#lb-gallery1-z" data-slide-to="3" data-toggle="modal"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallery03.jpg" alt="" title=""><span class="icon-focus"></span><span class="mbr-gallery-title mbr-fonts-style display-7">Bobby pins</span></div>
+                                    <div href="#lb-gallery1-z" data-slide-to="3" data-toggle="modal"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallery03.jpg" alt="" title=""><span class="icon-focus"><i class="fas fa-heart fa-xs"></i></span><span class="mbr-gallery-title mbr-fonts-style display-7">Bobby pins</span></div>
                                 </div>
 
                                 

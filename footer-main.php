@@ -67,13 +67,20 @@
                     <br> 
                     <div class="row no-gutter">
                     	<div class="col-xs-4">
+                    	<a href="https://twitter.com/">
                     		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/twitter.png" alt="tweet" >
+                    	</a>
                     	</div>
+
                     	<div class="col-xs-4">
+                    	<a href="https://www.facebook.com/">
 	                    	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/facebook.png" alt="facebook">
+	                    </a>
 	                	</div>
 	                    <div class="col-xs-4">
+	                    <a href="https://www.instagram.com">
 	                    	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/insta.png" alt="insta">
+	                    </a>
                     	</div>
                     </div>
                 </div>
