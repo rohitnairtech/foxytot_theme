@@ -137,7 +137,7 @@ s
                 </li>
 
                                 <li>
-                    <form role="search" method="get" action="http://localhost/foxytot/">
+                    <form role="search" method="get" action="<?php bloginfo( 'url' ); ?>">
                       <div class="input-group input-group-sm">
                         <input class="form-control input-sm" placeholder="Search" id="find" name="s" type="search">
                         <div class="search-icon"><span>
@@ -149,7 +149,7 @@ s
                        </li>
 
 <li class="nav-item">
-    <a href="http://localhost/foxytot/my-account/" class="iconLink">
+    <a href="<?php echo get_permalink( get_option('woocommerce_myaccount_page_id') ); ?>" class="iconLink">
         <i class="fas fa-user fa-2x" style="color: #939393;"></i>
      </a>
  </li>
