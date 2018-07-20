@@ -38,6 +38,7 @@ $('.navbar-lower').affix({
 .flex-control-nav {
   position: relative !important;
   float: right;
+  z-index: 1000;
 }
 
 
