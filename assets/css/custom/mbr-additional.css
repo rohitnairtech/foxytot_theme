@@ -20,7 +20,7 @@ body {
   line-height: 1.6;
 }
 .display-1 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Fjalla One', sans-serif;
   font-size: 4.25rem;
 }
 .display-1 > .mbr-iconfont {
@@ -656,7 +656,7 @@ a:hover {
   font-family: 'Rubik', sans-serif;
   font-size: 1rem;
   line-height: 1.43;
-  min-height: 3.5em;
+  min-height: 3.1em;
   padding: 1.07em .5em;
 }
 .form-control > .mbr-iconfont {

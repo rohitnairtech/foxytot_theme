@@ -58,8 +58,25 @@ $('.navbar-lower').affix({
 
             </div>
         </div>
+        <div class="d-sm-none">
+        	<form role="search" method="get" action="<?php bloginfo( 'url' ); ?>">
+                <div class="input-group input-group-sm">
+                    <input class="form-control input-sm" placeholder="Search" id="find2" name="s" type="search">
+                        <div class="search-icon"><span>
+                            <i class="fas fa-search fa-lg"></i>
+                        </span></div>
+                    <input name="post_type" value="product" type="hidden">
+                </div>
+            </form>
+        </div>
+
+
+		
+
+       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
+            	<div class="line2" style="display: flex; margin-left: 40px;">
 
                 <li class="nav-item" style="font-family: 'Oswald', sans-serif; font-size: 16px; color: #ff6600; margin-left:05px; margin-right: 10px;">
                     <a href="#">SALE</a>
@@ -68,24 +85,25 @@ $('.navbar-lower').affix({
                 <li class="nav-item" style="font-family: 'Oswald', sans-serif; font-size: 16px; color: #ff6600; margin-left:10px; margin-right: 20px;">
                     <a href="#">FEATURED</a>
                 </li>
+            </div>
 
                                 <li>
+                                	<span class="d-none d-md-block" id="find">
                     <form role="search" method="get" action="<?php bloginfo( 'url' ); ?>">
-                      <div class="input-group input-group-sm">
-                        <input class="form-control input-sm" placeholder="Search" id="find" name="s" type="search">
-                        <div class="search-icon"><span>
-                            <i class="fas fa-search fa-2x"></i>
-                        </span></div>
+                      <div class="input-group input-group-sm" id="find">
+                        <input class="form-control input-sm" placeholder="Search"  name="s" type="search">
+                        
                         <input name="post_type" value="product" type="hidden">
                       </div>
                     </form>
+                </span>
                        </li>
-<li class="nav-item">
+<li class="nav-item nav-icon">
     <a href="<?php echo get_permalink( get_option('woocommerce_myaccount_page_id') ); ?>" class="iconLink">
         <i class="fas fa-user fa-2x" style="color: #939393; padding-left: 25px;"></i>
      </a>
  </li>
-<li class="nav-item"> 
+<li class="nav-item nav-icon"> 
     <a href="<?php echo WC()->cart->get_cart_url(); ?>" class="iconLink">
         
         <i class="fas fa-shopping-cart fa-2x" style="color: #939393; padding-left: 0px;"></i>
@@ -95,6 +113,7 @@ $('.navbar-lower').affix({
         
     </a>
 </li>
+
 
             </ul>
 
@@ -112,11 +131,14 @@ $('.navbar-lower').affix({
 
 <nav class="d-block d-sm-none navbar nav-responsive navbar-collapse-lg" id="navResponsive">
   <div class="navbar-title" href="#"> 
-  <a class="navbar-toggler secondary" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background: transparent;">
+  <a class="navbar-toggler secondary" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background-color: #ff6600;">
   	Menu
     <span><i class="fas fa-sort-down fa-1x" id="upDown"></i></span>
   </a>
+
   </div>
+
+ 
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent2">
     <?php

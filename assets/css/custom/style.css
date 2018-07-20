@@ -82,7 +82,7 @@ button:focus{
 
 .nav-responsive{
 z-index: 1000;
-margin: auto;
+margin-top: 20px;
 display: flex;
 position: absolute;
 align-content: center;
@@ -203,16 +203,22 @@ nav.select {
     .navbar-lower{
         display: none;
     }
-
-    #find{
-        margin-left: 30px;
+    
+    .nav-icon{
+        display: none;
     }
+    
 
 }
 
 
 
 @media only screen and (min-width: 600px) {
+    
+    .lg-search{
+        display: none;
+    }
+
 
     .summary, .woocommerce-tabs{
         position: relative;
@@ -225,7 +231,7 @@ nav.select {
     }
 
     #help{
-        border-left: 1px soid #BDBDBD;
+        border-left: 1px solid #BDBDBD;
     }
 }
 
@@ -295,13 +301,25 @@ nav.select {
     
     
     #find{
-        margin-top: 0px; 
-        margin-right: 30px;
-        width: 250px;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 300px;
+    min-height: 3.2em;
     }
     
-    .fa, .fas {
+    #find2{
+        
+        margin-top: 10px;
+        margin-right: 20px;
+        width: 300px;
+        min-height: 3em;
+        margin-left: 20px;
 
+    }
+
+    
+    .fa, .fas {
+    margin-top: 10px;
     font-weight: 900;
     padding-right: 20px;
 
