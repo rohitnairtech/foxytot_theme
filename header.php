@@ -127,7 +127,7 @@ s
             </div>
         </div>
 
-        <div class="nav-mini" style="display: flex;">
+        <div class="d-sm-none nav-mini">
         <div class="d-sm-none">
           <form role="search" method="get" action="<?php bloginfo( 'url' ); ?>">
                 <div class="input-group input-group-sm">
@@ -155,8 +155,7 @@ s
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
 
-                <div class="line2" style="display: flex; margin-left: 40px;">
-
+                
                 <li class="nav-item" style="font-family: 'Oswald', sans-serif; font-size: 16px; color: #ff6600; margin-left:05px; margin-right: 10px;">
                     <a href="#">SALE</a>
                 </li>
@@ -164,7 +163,7 @@ s
                 <li class="nav-item" style="font-family: 'Oswald', sans-serif; font-size: 16px; color: #ff6600; margin-left:10px; margin-right: 20px;">
                     <a href="#">FEATURED</a>
                 </li>
-            </div>
+           
 
                                 <li>
                                   <span class="d-none d-md-block" id="find">

@@ -101,7 +101,7 @@ $('.navbar-lower').affix({
             
 
                                 <li>
-                                	<span class="d-none d-md-block" id="find">
+                                  <span class="d-none d-md-block" id="find">
                     <form role="search" method="get" action="<?php bloginfo( 'url' ); ?>">
                       <div class="input-group input-group-sm" id="find">
                         <input class="form-control input-sm" placeholder="Search"  name="s" type="search">
@@ -111,6 +111,7 @@ $('.navbar-lower').affix({
                     </form>
                 </span>
                        </li>
+
 <li class="nav-item nav-icon">
     <a href="<?php echo get_permalink( get_option('woocommerce_myaccount_page_id') ); ?>" class="iconLink">
         <i class="fas fa-user fa-2x" style="color: #939393; padding-left: 25px;"></i>
@@ -121,8 +122,8 @@ $('.navbar-lower').affix({
         
         <i class="fas fa-shopping-cart fa-2x" style="color: #939393; padding-left: 0px;"></i>
         <span class="dot">
-        	<span class="fa-layers-counter" id="bag-total"><?php echo WC()->cart->get_cart_contents_count(); ?></span>
-		</span>    	
+          <span class="fa-layers-counter" id="bag-total"><?php echo WC()->cart->get_cart_contents_count(); ?></span>
+	</span>    	
         
     </a>
 </li>
