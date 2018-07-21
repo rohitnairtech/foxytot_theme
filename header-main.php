@@ -58,6 +58,7 @@ $('.navbar-lower').affix({
 
             </div>
         </div>
+        <div class="d-sm-none nav-mini">
         <div class="d-sm-none">
         	<form role="search" method="get" action="<?php bloginfo( 'url' ); ?>">
                 <div class="input-group input-group-sm">
@@ -70,13 +71,25 @@ $('.navbar-lower').affix({
             </form>
         </div>
 
+        <span class="nav-item d-sm-none"> 
+    <a href="<?php echo WC()->cart->get_cart_url(); ?>" class="iconLink">
+        
+        <i class="fas fa-shopping-cart fa-lg" style="color: #939393; padding-left: 0px;"></i>
+        <span class="dot">
+        	<span class="fa-layers-counter" id="bag-total"><?php echo WC()->cart->get_cart_contents_count(); ?></span>
+		</span>    	
+        
+    </a>
+</span>
+    </div>
+
 
 		
 
        
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
-            	<div class="line2" style="display: flex; margin-left: 40px;">
+            	
 
                 <li class="nav-item" style="font-family: 'Oswald', sans-serif; font-size: 16px; color: #ff6600; margin-left:05px; margin-right: 10px;">
                     <a href="#">SALE</a>
@@ -85,7 +98,7 @@ $('.navbar-lower').affix({
                 <li class="nav-item" style="font-family: 'Oswald', sans-serif; font-size: 16px; color: #ff6600; margin-left:10px; margin-right: 20px;">
                     <a href="#">FEATURED</a>
                 </li>
-            </div>
+            
 
                                 <li>
                                 	<span class="d-none d-md-block" id="find">
