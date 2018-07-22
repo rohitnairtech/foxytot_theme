@@ -3977,8 +3977,11 @@ body {
   .cid-qSG03FRd1P .navbar-collapse.collapsing .navbar-nav,
   .cid-qSG03FRd1P .navbar-collapse.show .navbar-nav {
     display: flex;
-    text-align: center;
-    justify-content: center;
+text-align: center;
+justify-content: center;
+padding-top: 10px;
+padding: 15px 0px 10px 0px;
+width: 100%;
   }
   .cid-qSG03FRd1P .navbar-collapse.collapsing .navbar-nav .nav-item,
   .cid-qSG03FRd1P .navbar-collapse.show .navbar-nav .nav-item {

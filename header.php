@@ -112,6 +112,7 @@ s
                 <span></span>
             </div>
         </button>
+        <div class="top-nav">
         <div class="menu-logo">
             <div class="navbar-brand">
                 <span class="navbar-logo">
@@ -127,6 +128,18 @@ s
             </div>
         </div>
 
+         <span class="nav-item d-sm-none" style="position: relative; right: 55px;"> 
+    <a href="<?php echo WC()->cart->get_cart_url(); ?>" class="iconLink">
+        
+        <i class="fas fa-shopping-cart fa-lg" style="color: #939393; padding-left: 0px;"></i>
+        <span class="dot">
+          <span class="fa-layers-counter" id="bag-total"><?php echo WC()->cart->get_cart_contents_count(); ?></span>
+    </span>     
+        
+    </a>
+</span>
+</div>
+
         <div class="d-sm-none nav-mini">
         <div class="d-sm-none">
           <form role="search" method="get" action="<?php bloginfo( 'url' ); ?>">
@@ -140,17 +153,12 @@ s
             </form>
         </div>
 
-        <span class="nav-item d-sm-none"> 
-    <a href="<?php echo WC()->cart->get_cart_url(); ?>" class="iconLink">
-        
-        <i class="fas fa-shopping-cart fa-lg" style="color: #939393; padding-left: 0px;"></i>
-        <span class="dot">
-          <span class="fa-layers-counter" id="bag-total"><?php echo WC()->cart->get_cart_contents_count(); ?></span>
-    </span>     
-        
-    </a>
-</span>
+       
     </div>
+
+
+
+    
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
