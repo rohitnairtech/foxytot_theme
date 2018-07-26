@@ -9,7 +9,8 @@ section,
 .container,
 .container-fluid {
   position: relative;
-  word-wrap: break-word; }
+  word-wrap: break-word;
+   }
 
 a.mbr-iconfont:hover {
   text-decoration: none; }
