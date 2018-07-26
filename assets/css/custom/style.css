@@ -51,6 +51,7 @@
 
 }
 
+
 h2{
     padding-top: 20px;
 }
@@ -66,6 +67,8 @@ form{
     top: 0px;
     
 }
+
+
 
 .navbar-lower{
     background-color: #ff6600;
@@ -188,6 +191,15 @@ nav.select {
 }
 
 @media only screen and (max-width: 600px) { 
+    
+    #bag-total{
+        top: -3px;
+        left: 5px;
+    }
+
+    #primary{
+    margin-top: 20px;
+    }
 
      .flex-control-nav{
         display: none;
@@ -232,6 +244,9 @@ nav.select {
         bottom: 270px;
         
     }
+
+   
+
 
     #abt-us{
         border-right: 1px solid #BDBDBD;
