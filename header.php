@@ -87,10 +87,7 @@ h2, h3{
 	position: relative;
 	top:50px;	
 }
-
-s
-
-.flex-control-nav{
+  .flex-control-nav{
         display: none;
     }
 }
@@ -121,7 +118,7 @@ s
                         $custom_logo_id = get_theme_mod( 'custom_logo' );
                         $logo = wp_get_attachment_image_src( $custom_logo_id , 'full' );
                         ?>
-                         <img src="<?php echo (has_custom_logo()) ? esc_url( $logo[0] ) : get_template_directory_uri().'/assets/images/head-image.png' ?>" alt="<?php echo esc_attr( get_bloginfo('name', 'display') ); ?>" title="<?php echo esc_attr( get_bloginfo('name') ); ?>" style="height: 5rem;">
+                         <img src="<?php echo (has_custom_logo()) ? esc_url( $logo[0] ) : get_template_directory_uri().'/assets/images/head-image.png' ?>" alt="<?php bloginfo('name'); ?>" title="<?php bloginfo('name'); ?>" style="height: 5rem;">
                     </a>
                 </span>
 
@@ -217,7 +214,7 @@ s
 
 <nav class="d-block d-sm-none navbar nav-responsive navbar-collapse-lg" id="navResponsive">
   <div class="navbar-title" href="#"> 
-  <a class="navbar-toggler secondary" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"  style="background-color: #ff6600;">
+  <a class="navbar-toggler secondary" data-toggle="collapse" data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"  style="background-color: #ff6600;">
   	Menu
     <span><i class="fas fa-sort-down fa-1x" id="upDown"></i></span>
   </a>
