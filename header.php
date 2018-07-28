@@ -130,7 +130,7 @@ h2, h3{
         
         <i class="fas fa-shopping-cart fa-lg" style="color: #939393; padding-left: 0px;"></i>
         <span class="dot">
-          <span class="fa-layers-counter" id="bag-total" style="top: -1.5px; left: 5px;" ><?php echo WC()->cart->get_cart_contents_count(); ?></span>
+          <span class="fa-layers-counter" id="bag-total"><?php echo WC()->cart->get_cart_contents_count(); ?></span>
     </span>     
         
     </a>
