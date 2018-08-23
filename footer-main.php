@@ -107,11 +107,8 @@
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/mbr-flip-card.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/masonry.pkgd.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/mbr-testimonials-slider.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/script_theme.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/assets/js/script_gallery.js"></script>
+    
+    
     <script type="text/javascript">
 $(document).ready(function(){
     $('#navbarSupportedContent2').on('shown.bs.collapse', function () {

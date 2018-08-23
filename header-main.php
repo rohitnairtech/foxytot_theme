@@ -21,15 +21,18 @@
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Roboto+Condensed" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
 
-<script>
-$('.navbar-lower').affix({
-  offset: {top: 50}
-});
-</script>
+
 
 </head>
 
 <body>
+	
+
+	<script>
+$('.navbar-lower').affix({
+  offset: {top: 50}
+});
+</script>
 
 <section class="menu cid-qSG03FRd1P" once="menu" id="menu1-h">
 
