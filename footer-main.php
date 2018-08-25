@@ -78,7 +78,7 @@
 	                    </a>
 	                	</div>
 	                    <div class="col-xs-4">
-	                    <a href="https://www.instagram.com">
+	                    <a href="https://www.instagram.com/thefoxytot/">
 	                    	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/insta.png" alt="insta">
 	                    </a>
                     	</div>
