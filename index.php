@@ -57,7 +57,7 @@
                         </div>
                     </div>
                 </div>
-                <a data-app-prevent-settings="" class="carousel-control carousel-control-prev" role="button" data-slide="prev" href="#slider1-k"><span aria-hidden="true" class="mbri-left mbr-iconfont"></span><span class="sr-only">Previous</span></a><a data-app-prevent-settings="" class="carousel-control carousel-control-next" role="button" data-slide="next" href="#slider1-k"><span aria-hidden="true" class="mbri-right mbr-iconfont"></span><span class="sr-only">Next</span></a></div>
+                <a data-app-prevent-settings="" class="carousel-control carousel-control-prev" role="button" data-slide="prev" href="#slider1-k"><span aria-hidden="true"> <i class="fas fa-chevron-left" style="position: relative; left: 7px; bottom: 1px;" ></i></span><span class="sr-only">Previous</span></a><a data-app-prevent-settings="" class="carousel-control carousel-control-next" role="button" data-slide="next" href="#slider1-k"><span aria-hidden="true"> <i class="fas fa-chevron-right" style="position: relative; left: 12px; bottom: 2px;"></i></span><span class="sr-only">Next</span></a></div>
         </div>
 
     </section>
