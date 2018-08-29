@@ -203,6 +203,7 @@ nav.select {
      .flex-control-nav{
         display: none;
     }
+    
 
     .top-nav{
         width: 100%;
@@ -242,6 +243,8 @@ nav.select {
         bottom: 270px;
         
     }
+
+    
 
 
     #abt-us{

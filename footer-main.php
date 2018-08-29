@@ -42,19 +42,19 @@
                         <div class="col-md-6" id="abt-us" >
                             <p class="mb-4 mbr-fonts-style foot-title display-7" id="ftitle">
                                 ABOUT US</p>
-                            <p class="mbr-text mbr-links-column mbr-fonts-style display-7" id="txt2">Careers
-                                <br>Terms
-                                <br>Privacy
-                                <br>Legal
-                                <br><br></p>
+                            <p class="mbr-text mbr-links-column mbr-fonts-style display-7" id="txt2"><a href="#">Careers</a>
+                                <br><a href="#">Delivery details</a>
+                            <br><a href="#">Get in touch</a>
+                            <br><a href="#">FAQs</a>
+                            <br><br></p>
                         </div>
                         <div class="col-md-6" id="help">
                         <p class="mb-4 mbr-fonts-style foot-title display-7" id="ftitle">
                             HELP</p>
-                        <p class="mbr-text mbr-fonts-style mbr-links-column display-7" id="txt2">Return policy
-                            <br>Delivery details
-                            <br>Get in touch
-                            <br>FAQs
+                        <p class="mbr-text mbr-fonts-style mbr-links-column display-7" id="txt2"><a href="#">Return policy</a>
+                            <br><a href="#">Delivery details</a>
+                            <br><a href="#">Get in touch</a>
+                            <br><a href="#">FAQs</a>
                             <br><br></p>
                         </div>
                     </div>

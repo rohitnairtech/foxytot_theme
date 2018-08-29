@@ -22,7 +22,7 @@
                                     <div class="col-10 align-center">
                                         <h2 class="mbr-fonts-style display-1">30% Off on all kids accessories</h2>
                                         <p class="lead mbr-text mbr-fonts-style display-5">Limited time offers on kids lorem ipsum</p>
-                                        <div class="mbr-section-btn" buttons="0"> <a class="btn  btn-white-outline display-4" href="#">SHOP NOW</a></div>
+                                        <div class="mbr-section-btn" buttons="0"> <a class="btn  btn-white-outline display-4" href="https://thefoxytot.com/shop/">SHOP NOW</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -36,7 +36,7 @@
                                     <div class="col-10 align-left">
                                         <h2 class="mbr-fonts-style display-2">Sand and sea<br>Feel the breeze</h2>
                                         <p class="lead mbr-text mbr-fonts-style display-5"></p>
-                                        <div class="mbr-section-btn" buttons="0"><a class="btn  btn-primary display-4" href="#">EXPLORE NOW</a> </div>
+                                        <div class="mbr-section-btn" buttons="0"><a class="btn  btn-primary display-4" href="https://thefoxytot.com/shop/">EXPLORE NOW</a> </div>
                                     </div>
                                 </div>
                             </div>
@@ -70,7 +70,7 @@
 
 
         <div class="container">
-            <h2 class="mbr-section-title pb-3 align-center mbr-fonts-style display-2">
+            <h2 class="mbr-section-title pb-3 align-center mbr-fonts-style display-2" style="margin-top: -70px">
                 This summer stay cool and look cooler</h2>
             <h3 class="mbr-section-subtitle display-5 align-center mbr-fonts-style">
                 60% Off on the latest Summer Collections</h3>
@@ -80,7 +80,7 @@
                 <div class="col-12 col-md-6 mb-4 col-lg-3">
                     <div class="card flip-card p-5 align-center">
                         <div class="card-front card_cont">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/jumbotron.jpg" alt="Mobirise">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/jumbotron.png" alt="Mobirise">
                         </div>
                         <div class="card_back card_cont">
                             <h4 class="card-title display-5 py-2 mbr-fonts-style">
@@ -95,7 +95,7 @@
 
                     <div class="card flip-card p-5 align-center">
                         <div class="card-front card_cont">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/jumbotron2.jpg" alt="Mobirise">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/jumbotron2.png" alt="Mobirise">
                         </div>
                         <div class="card_back card_cont">
                             <h4 class="card-title py-2 mbr-fonts-style display-5">
@@ -111,7 +111,7 @@
                 <div class="col-12 col-md-6 mb-4 col-lg-3">
                     <div class="card flip-card p-5 align-center">
                         <div class="card-front card_cont">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/background5.jpg" alt="Mobirise">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/background5.png" alt="Mobirise">
                         </div>
                         <div class="card_back card_cont">
                             <h4 class="card-title py-2 mbr-fonts-style display-5">
@@ -127,7 +127,7 @@
                 <div class="col-12 col-md-6 mb-4 col-lg-3">
                     <div class="card flip-card p-5 align-center">
                         <div class="card-front card_cont">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/background3.jpg" alt="Mobirise">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/background3.png" alt="Mobirise">
                         </div>
                         <div class="card_back card_cont">
                             <h4 class="card-title py-2 mbr-fonts-style display-5">
@@ -185,28 +185,28 @@
                         <div>
                             <div class="tiles">
                                 <div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false" data-tags="Awesome">
-                                    <div href="#lb-gallery1-z" data-slide-to="0" data-toggle="modal"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/Featured.png" alt="" title=""><span class="icon-focus "> <i class="fas fa-heart fa-xs"></i></span><span class="mbr-gallery-title mbr-fonts-style display-7">Featured</span></div>
+                                    <div href="#lb-gallery1-z" data-slide-to="0" data-toggle="modal"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallery01.png" alt="" title=""><span class="icon-focus "> <i class="fas fa-heart fa-xs"></i></span><span class="mbr-gallery-title mbr-fonts-style display-7">Featured</span></div>
                                 </div>
                                 <div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false" data-tags="Responsive">
-                                    <div href="#lb-gallery1-z" data-slide-to="1" data-toggle="modal"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/HairBand.png" alt="" title=""><span class="icon-focus"><i class="fas fa-heart fa-xs"></i></span><span class="mbr-gallery-title mbr-fonts-style display-7">Hair bands</span></div>
+                                    <div href="#lb-gallery1-z" data-slide-to="1" data-toggle="modal"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallery02.png" alt="" title=""><span class="icon-focus"><i class="fas fa-heart fa-xs"></i></span><span class="mbr-gallery-title mbr-fonts-style display-7">Hair bands</span></div>
                                 </div>
                                 <div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false" data-tags="Creative">
-                                    <div href="#lb-gallery1-z" data-slide-to="2" data-toggle="modal"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/BananaClip.png" alt="" title=""><span class="icon-focus"><i class="fas fa-heart fa-xs"></i></span><span class="mbr-gallery-title mbr-fonts-style display-7">Banana Clips</span></div>
+                                    <div href="#lb-gallery1-z" data-slide-to="2" data-toggle="modal"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallery03.png" alt="" title=""><span class="icon-focus"><i class="fas fa-heart fa-xs"></i></span><span class="mbr-gallery-title mbr-fonts-style display-7">Banana Clips</span></div>
                                 </div>
                                 <div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false" data-tags="Animated">
-                                    <div href="#lb-gallery1-z" data-slide-to="3" data-toggle="modal"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallery03.jpg" alt="" title=""><span class="icon-focus"><i class="fas fa-heart fa-xs"></i></span><span class="mbr-gallery-title mbr-fonts-style display-7">Sunglasses</span></div>
+                                    <div href="#lb-gallery1-z" data-slide-to="3" data-toggle="modal"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallery04.png" alt="" title=""><span class="icon-focus"><i class="fas fa-heart fa-xs"></i></span><span class="mbr-gallery-title mbr-fonts-style display-7">Sunglasses</span></div>
                                 </div>
                                 <div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false" data-tags="Awesome">
-                                    <div href="#lb-gallery1-z" data-slide-to="0" data-toggle="modal"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/HairElastic.png" alt="" title=""><span class="icon-focus"><i class="fas fa-heart fa-xs"></i></span><span class="mbr-gallery-title mbr-fonts-style display-7">Elastics</span></div>
+                                    <div href="#lb-gallery1-z" data-slide-to="0" data-toggle="modal"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallery05.png" alt="" title=""><span class="icon-focus"><i class="fas fa-heart fa-xs"></i></span><span class="mbr-gallery-title mbr-fonts-style display-7">Elastics</span></div>
                                 </div>
                                 <div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false" data-tags="Responsive">
-                                    <div href="#lb-gallery1-z" data-slide-to="1" data-toggle="modal"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/Party.png" alt="" title=""><span class="icon-focus"><i class="fas fa-heart fa-xs"></i></span><span class="mbr-gallery-title mbr-fonts-style display-7">Party Accessories</span></div>
+                                    <div href="#lb-gallery1-z" data-slide-to="1" data-toggle="modal"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallery06.png" alt="" title=""><span class="icon-focus"><i class="fas fa-heart fa-xs"></i></span><span class="mbr-gallery-title mbr-fonts-style display-7">Party Accessories</span></div>
                                 </div>
                                 <div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false" data-tags="Creative">
-                                    <div href="#lb-gallery1-z" data-slide-to="2" data-toggle="modal"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/SnapClip.png" alt="" title=""><span class="icon-focus"><i class="fas fa-heart fa-xs"></i></span><span class="mbr-gallery-title mbr-fonts-style display-7">Snap Clips</span></div>
+                                    <div href="#lb-gallery1-z" data-slide-to="2" data-toggle="modal"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallery07.png" alt="" title=""><span class="icon-focus"><i class="fas fa-heart fa-xs"></i></span><span class="mbr-gallery-title mbr-fonts-style display-7">Snap Clips</span></div>
                                 </div>
                                 <div class="mbr-gallery-item mbr-gallery-item--p1" data-video-url="false" data-tags="Animated">
-                                    <div href="#lb-gallery1-z" data-slide-to="3" data-toggle="modal"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/Pins.png" alt="" title=""><span class="icon-focus"><i class="fas fa-heart fa-xs"></i></span><span class="mbr-gallery-title mbr-fonts-style display-7">Pins</span></div>
+                                    <div href="#lb-gallery1-z" data-slide-to="3" data-toggle="modal"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/gallery08.png" alt="" title=""><span class="icon-focus"><i class="fas fa-heart fa-xs"></i></span><span class="mbr-gallery-title mbr-fonts-style display-7">Pins</span></div>
                                 </div>
 
                                 

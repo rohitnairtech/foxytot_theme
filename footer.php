@@ -58,9 +58,9 @@
                         <p class="mb-4 mbr-fonts-style foot-title display-7" id="ftitle">
                             HELP</p>
                         <p class="mbr-text mbr-fonts-style mbr-links-column display-7" id="txt2">Return policy
-                            <br>Delivery details
-                            <br>Get in touch
-                            <br>FAQs
+                            <br><a href="#">Delivery details</a>
+                            <br><a href="#">Get in touch</a>
+                            <br><a href="#">FAQs</a>
                             <br><br></p>
                         </div>
                     </div>

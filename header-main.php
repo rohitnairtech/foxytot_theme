@@ -28,11 +28,7 @@
 <body>
 	
 
-	<script>
-$('.navbar-lower').affix({
-  offset: {top: 50}
-});
-</script>
+
 
 <section class="menu cid-qSG03FRd1P" once="menu" id="menu1-h">
 
