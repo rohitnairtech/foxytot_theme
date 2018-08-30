@@ -2274,13 +2274,16 @@ body {
 }
 .cid-qSG0YrXmdg .carousel-caption {
   top: 50%;
-  right: 0;
-  bottom: auto;
-  left: 0;
-  display: flex;
-  align-items: center;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
+right: 0;
+bottom: auto;
+left: 150px;
+display: flex;
+align-items: center;
+-webkit-transform: translateY(-50%);
+transform: translateY(-50%);
+width: 75%;
+display: flex;
+justify-content: center;
 }
 .cid-qSG0YrXmdg .mbr-overlay {
   z-index: 1;

@@ -2,12 +2,12 @@
 
 
 
- <section class="carousel slide cid-qSG0YrXmdg" data-interval="5000" id="slider1-k">
+ <section class="carousel slide cid-qSG0YrXmdg" data-interval="100000" id="slider1-k">
 
 
 
         <div class="full-screen">
-            <div class="mbr-slider slide carousel" data-pause="true" data-keyboard="false" data-ride="carousel" data-interval="5000">
+            <div class="mbr-slider slide carousel" data-pause="true" data-keyboard="false" data-ride="carousel" data-interval="100000">
                 <ol class="carousel-indicators">
                     <li data-app-prevent-settings="" data-target="#slider1-k" data-slide-to="0"></li>
                     <li data-app-prevent-settings="" data-target="#slider1-k" data-slide-to="1"></li>
