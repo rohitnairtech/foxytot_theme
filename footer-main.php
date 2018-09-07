@@ -39,7 +39,7 @@
 
                 <div class="col-md-3 col-sm-4">
                     <div class="row">
-                        <div class="col-md-6 white-text" id="abt-us" style="background-color: #ff6600; color: white; padding-top: 15px;">
+                        <div class="col-md-6 white-text" id="abt-us" style="padding-top: 15px;">
                             <p class="mb-4 mbr-fonts-style foot-title display-7" id="ftitle">
                                 ABOUT US</p>
                             <p class="mbr-text mbr-links-column mbr-fonts-style display-7" id="txt2" "><a href="#">Careers</a>
@@ -48,7 +48,7 @@
                             <br><a href="#">FAQs</a>
                             <br><br></p>
                         </div>
-                        <div class="col-md-6" id="help" style="background-color: #ff6600; color: white; padding-top: 15px;">
+                        <div class="col-md-6" id="help" style=" padding-top: 15px;">
                         <p class="mb-4 mbr-fonts-style foot-title display-7" id="ftitle">
                             HELP</p>
                         <p class="mbr-text mbr-fonts-style mbr-links-column display-7" id="txt2"><a href="#">Return policy</a>
@@ -63,8 +63,7 @@
                 <div class="col-md-3 col-sm-4" id="con" >
                     <p id="ftitle" id="txt2">
                             CONNECT WITH US</p>
-                    <br>
-                    <br> 
+                    
                     <div class="row no-gutter">
                     	<div class="col-xs-4">
                     	<a href="https://twitter.com/">
