@@ -39,16 +39,16 @@
 
                 <div class="col-md-3 col-sm-4">
                     <div class="row">
-                        <div class="col-md-6" id="abt-us" >
+                        <div class="col-md-6 white-text" id="abt-us" style="background-color: #ff6600; color: white; padding-top: 15px;">
                             <p class="mb-4 mbr-fonts-style foot-title display-7" id="ftitle">
                                 ABOUT US</p>
-                            <p class="mbr-text mbr-links-column mbr-fonts-style display-7" id="txt2"><a href="#">Careers</a>
+                            <p class="mbr-text mbr-links-column mbr-fonts-style display-7" id="txt2" "><a href="#">Careers</a>
                                 <br><a href="#">Delivery details</a>
                             <br><a href="#">Get in touch</a>
                             <br><a href="#">FAQs</a>
                             <br><br></p>
                         </div>
-                        <div class="col-md-6" id="help">
+                        <div class="col-md-6" id="help" style="background-color: #ff6600; color: white;">
                         <p class="mb-4 mbr-fonts-style foot-title display-7" id="ftitle">
                             HELP</p>
                         <p class="mbr-text mbr-fonts-style mbr-links-column display-7" id="txt2"><a href="#">Return policy</a>
@@ -60,7 +60,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-3 col-sm-4" id="con">
+                <div class="col-md-3 col-sm-4" id="con" >
                     <p id="ftitle" id="txt2">
                             CONNECT WITH US</p>
                     <br>

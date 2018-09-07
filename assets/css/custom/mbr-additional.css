@@ -50,6 +50,8 @@ body {
 .display-7 {
   font-family: 'Rubik', sans-serif;
   font-size: 1rem;
+  color: white;
+  text-decoration-color: white;
 }
 .display-7 > .mbr-iconfont {
   font-size: 1.6rem;
@@ -563,7 +565,7 @@ a.text-black:focus {
 }
 a,
 a:hover {
-  color: #ff6600;
+  color: white;
 }
 .mbr-plan-header.bg-primary .mbr-plan-subtitle,
 .mbr-plan-header.bg-primary .mbr-plan-price-desc {

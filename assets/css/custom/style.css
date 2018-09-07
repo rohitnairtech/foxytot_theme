@@ -128,6 +128,7 @@ width: 100%;
 
 
 
+
 #sale{
         
         color: #ff6600;
@@ -247,13 +248,7 @@ nav.select {
     
 
 
-    #abt-us{
-        border-right: 1px solid #BDBDBD;
-    }
-
-    #help{
-        border-left: 1px solid #BDBDBD;
-    }
+    
 }
 
 /* Footer Styling begins */
@@ -293,7 +288,8 @@ nav.select {
     }
 
     #ftitle{
-        color: #ff6600;
+        color: white;
+        text-decoration-color: white;
     }
 
     #abt-us{
@@ -304,6 +300,8 @@ nav.select {
 
     #txt2{
         font-family: 'Roboto Condensed', sans-serif;
+        color: white;
+        text-decoration-color: white;
 
     }
 
