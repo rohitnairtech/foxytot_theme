@@ -48,7 +48,7 @@
                             <br><a href="#">FAQs</a>
                             <br><br></p>
                         </div>
-                        <div class="col-md-6" id="help" style="background-color: #ff6600; color: white;">
+                        <div class="col-md-6" id="help" style="background-color: #ff6600; color: white; padding-top: 15px;">
                         <p class="mb-4 mbr-fonts-style foot-title display-7" id="ftitle">
                             HELP</p>
                         <p class="mbr-text mbr-fonts-style mbr-links-column display-7" id="txt2"><a href="#">Return policy</a>
