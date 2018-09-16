@@ -78,6 +78,32 @@ function custom_nav_menu_link_attributes($atts, $item, $args, $depth){
     return $atts;
 }
 
+
+
+
+add_filter('woocommerce_form_field_country', 'clean_checkout_fields_class_attribute_values', 20, 4);
+add_filter('woocommerce_form_field_state', 'clean_checkout_fields_class_attribute_values', 20, 4);
+add_filter('woocommerce_form_field_textarea', 'clean_checkout_fields_class_attribute_values', 20, 4);
+add_filter('woocommerce_form_field_checkbox', 'clean_checkout_fields_class_attribute_values', 20, 4);
+add_filter('woocommerce_form_field_password', 'clean_checkout_fields_class_attribute_values', 20, 4);
+add_filter('woocommerce_form_field_text', 'clean_checkout_fields_class_attribute_values', 20, 4);
+add_filter('woocommerce_form_field_email', 'clean_checkout_fields_class_attribute_values', 20, 4);
+add_filter('woocommerce_form_field_tel', 'clean_checkout_fields_class_attribute_values', 20, 4);
+add_filter('woocommerce_form_field_number', 'clean_checkout_fields_class_attribute_values', 20, 4);
+add_filter('woocommerce_form_field_select', 'clean_checkout_fields_class_attribute_values', 20, 4);
+add_filter('woocommerce_form_field_radio', 'clean_checkout_fields_class_attribute_values', 20, 4);
+function clean_checkout_fields_class_attribute_values( $field, $key, $args, $value ){
+    if( is_checkout() ){
+        $field = str_replace( array('<p class="form-row ', '<p class="form-row'), array('<p class="', '<p class="'), $field);
+    }
+
+    return $field;
+}
+
+
+
+
+
 add_filter('woocommerce_checkout_fields', 'addBootstrapToCheckoutFields' );
 add_filter( 'woocommerce_billing_fields' , 'addBootstrapToCustomFields' );
 add_filter( 'woocommerce_shipping_fields' , 'addBootstrapToCustomFields' );

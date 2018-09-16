@@ -23,12 +23,6 @@
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Roboto+Condensed" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
                         
-
-<script>
-$('.navbar-lower').affix({
-  offset: {top: 50}
-});
-</script>
 <style type="text/css">
 /*NOTE SIDD: this CSS has been temporarily added to the header file and will be moved to custom/style.css post-staging*/
 .woocommerce-product-gallery__trigger {

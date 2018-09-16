@@ -118,13 +118,9 @@
 
     <script>
 
-    $('.navbar-lower').affix({
-      offset: {top: 50}
-    });
-
 $(document).ready(function(){
-    if($("div > p").hasClass('form-row')){
-        $("div > p").removeClass('form-row');
+    if($(".woocommerce-address-fields__field-wrapper > p").hasClass('form-row')){
+        $(".woocommerce-address-fields__field-wrapper > p").removeClass('form-row');
     }    
     $(".woocommerce-product-gallery__wrapper > div > a").addClass('woocommerce-product-gallery__trigger');
 
